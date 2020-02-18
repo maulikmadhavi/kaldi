@@ -1,0 +1,30 @@
+tau=3
+=========================================
+LOG (compute-eer[5.3.117~1-5ea9b]:main():compute-eer.cc:136) Equal error rate is 30.8498%, at threshold -0.002
+30.85
+
+tau=10
+=========================================
+compute-eer imp_corr_perf 
+LOG (compute-eer[5.3.117~1-5ea9b]:main():compute-eer.cc:136) Equal error rate is 3.82227%, at threshold 0.082
+3.822
+
+tau=15
+=========================================
+compute-eer imp_corr_perf 
+LOG (compute-eer[5.3.117~1-5ea9b]:main():compute-eer.cc:136) Equal error rate is 3.76407%, at threshold 0.118
+3.764
+
+
+tau=20
+=========================================
+compute-eer imp_corr_perf 
+LOG (compute-eer[5.3.117~1-5ea9b]:main():compute-eer.cc:136) Equal error rate is 3.74466%, at threshold 0.122
+3.745
+
+
+tau=30
+=========================================
+compute-eer imp_corr_perf 
+LOG (compute-eer[5.3.117~1-5ea9b]:main():compute-eer.cc:136) Equal error rate is 3.70586%, at threshold 0.111
+3.706

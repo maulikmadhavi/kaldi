@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name=slurm_job_scoring      # create a short name for your job
+#SBATCH --nodes=1                # node count
+#SBATCH --ntasks=6               # total number of tasks across all nodes
+#SBATCH --cpus-per-task=1        # cpu-cores per task (>1 if multi-threaded tasks)
+#SBATCH --mem=2G                 # total memory per node
+#SBATCH --time=50:01:00          # total run time limit (HH:MM:SS)
+
+srun python local/score_eval_mono_vow5.py

@@ -31,7 +31,7 @@ core
 
 # Test log files
 *.testlog
-
+*.log
 # emacs saves
 [#]*[#]
 .[#]*
@@ -59,6 +59,7 @@ GSYMS
 *.pdb
 *.exp
 *.manifest
+*.gz 
 
 # /src/
 /src/.short_version
@@ -79,6 +80,7 @@ GSYMS
 /egs/*/*/data
 /egs/*/*/wav
 /egs/*/*/enhan
+/egs/*/*/scores
 
 # /tools/
 /tools/pocolm/
